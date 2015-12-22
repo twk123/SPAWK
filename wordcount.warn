@@ -1,0 +1,26 @@
+RDD
+{
+def mapper(x):
+    return (x,1);
+
+def reducer(x, y):
+    return x + y;
+
+flatMapStep = spawkData.flatMap(lambda x: x.split(' '))
+mapStep = flatMapStep.map(mapper)
+reduceStep = mapStep.reduceByKey(reducer)
+A = reduceStep.collect()
+for (k,v) in A:
+   print(k, v);
+}
+
+RDD
+{
+
+Indentifer
+no kv check
+IndentiferIndentifer
+Add error
+checkForIn RDD ok
+printno call check}
+

@@ -1,0 +1,10 @@
+/RDD/ {
+
+function mapper(x) { return (x,1) }
+function reducer(x,y) { return (x+y) }
+
+A = mapReduceByKey(mapper,reducer)
+
+for (k,v) in A print(k,v)
+
+ } 

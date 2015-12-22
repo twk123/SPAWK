@@ -1,0 +1,23 @@
+emptyPattern
+{
+def gcd(x, y):
+    while (y != 0) {
+temp = x;
+x = y;
+y = temp % y;
+}
+return x;
+
+print(gcd(40, 56));
+}
+
+emptyPattern
+{
+
+IndentiferIndentifer
+
+Neq error
+{
+tempno assign checkxno assign checkyno assign check}
+Indentiferprintno call check}
+
